@@ -20,3 +20,4 @@ this will read the file from the path `file_reader/<input_file>` and output to t
 I've added some basic error handling regarding connections and such and I am using `EOF` as an end of file marker, which
 of course leads to some edge-case issues if you put EOF and the end of a line in your file.
 
+I've also added a few sleeps to ensure we don't have to deal with race conditions, this is of course just to keep the scope simpler.
