@@ -12,7 +12,7 @@ messages about files to read or not.
 When the orchestration is running, you will be prompted with:
 ```
 Enter commands in the format: <input_file> <output_file>
-Enter command (or 'exit' to quit): 
+Enter command: 
 ```
 
 this will read the file from the path `file_reader/<input_file>` and output to the path `file_writer/<output_file>`.

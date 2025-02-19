@@ -32,7 +32,7 @@ def main():
 
     try:
         while True:
-            cmd = input("Enter command (or 'exit' to quit): ").strip()
+            cmd = input("Enter command: ").strip()
             if cmd.lower() == "exit":
                 break
 
